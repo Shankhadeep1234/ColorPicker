@@ -18,7 +18,9 @@
 
 .logo a {
   text-decoration: none;
-  color: black;
+  background: -webkit-linear-gradient(rgb(69, 255, 255), rgb(22, 22, 22));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
 
